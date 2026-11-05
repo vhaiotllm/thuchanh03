@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sổ chi tiêu - Class</title>
+  <style>
+    body { font-family: Arial; background: #f4f4f4; margin: 0; }
+    #root { max-width: 850px; margin: 25px auto; background: white; padding: 20px; }
+    header { display: flex; justify-content: space-between; align-items: center; }
+    form { display: flex; flex-wrap: wrap; gap: 8px; }
+    input, select, button { padding: 8px; font-size: 14px; }
+    button { cursor: pointer; }
+    .loi { color: red; width: 100%; margin: 0; }
+    table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+    th, td { padding: 9px; border: 1px solid #ddd; text-align: left; }
+    .filters { margin: 15px 0; }
+    .filters button { margin-right: 5px; }
+    .active { background: #3273dc; color: white; }
+    .sum { font-weight: bold; margin-top: 15px; }
+    .stats { margin: 15px 0; }
+    .stats span { display: inline-block; padding: 6px; background: #eee; margin: 3px; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
